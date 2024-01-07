@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7DD1EC"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainMenuFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:fontFamily="@font/vt323"
+        android:gravity="center"
+        android:text="@string/all_sky_surfer"
+        android:textColor="#000000"
+        android:textSize="60sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:layout_marginTop="30sp"
+        android:contentDescription="@string/all_sky_surfer"
+        android:src="@drawable/skysurfer"
+        tools:srcCompat="@drawable/skysurfer" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50sp" />
+
+    <Button
+        android:id="@+id/button_mainMenu_play"
+        android:layout_width="150sp"
+        android:layout_height="100sp"
+        android:layout_gravity="center"
+        android:layout_margin="5sp"
+        android:backgroundTint="#258C14"
+        android:fontFamily="@font/vt323"
+        android:paddingBottom="10sp"
+        android:text="@string/mainMenu_play"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        app:cornerRadius="30sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_mainMenu_logOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="30sp"
+            android:backgroundTint="#258A14"
+            android:fontFamily="@font/vt323"
+            android:paddingBottom="10sp"
+            android:text="@string/mainMenu_logOut"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            app:cornerRadius="30sp"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/button_mainMenu_leaderboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="35sp"
+            android:layout_marginEnd="30sp"
+            android:backgroundTint="#258B14"
+            android:fontFamily="@font/vt323"
+            android:paddingBottom="10sp"
+            android:text="@string/leaderboard_title"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            app:cornerRadius="30sp"
+            style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+
+</LinearLayout>

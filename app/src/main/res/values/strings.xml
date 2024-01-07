@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">comp3717_project</string>
+
+    <string name="all_sky_surfer">Sky Surfer</string>
+    <string name="all_emptyUserName">Please enter a username.</string>
+    <string name="all_emptyPassword">Please enter a password.</string>
+    <string name="all_backButton">Back</string>
+    <string name="all_loginButton">Login</string>
+    <string name="all_registerButton">Register</string>
+
+    <string name="register_emptyConfirmPassword">Please confirm your password.</string>
+    <string name="register_feedback">Passwords do not match!</string>
+    <string name="register_header">Register</string>
+    <string name="register_usernameHint">Username</string>
+    <string name="register_passwordHint">Password</string>
+    <string name="register_confirmPasswordHint">Confirm Password</string>
+    <string name="register_createAccountHint">Create Account</string>
+    <string name="register_exists">User already exists, please try again.</string>
+
+    <string name="login_feedback">User not found, please try again.</string>
+    <string name="login_passwordHint">Password</string>
+    <string name="login_usernameHint">Username</string>
+    <string name="login_header">Login</string>
+
+    <string name="pause_drawer_open">Open pause menu</string>
+    <string name="pause_drawer_close">Close pause menu</string>
+
+    <string name="game_over">GAME OVER</string>
+    <string name="game_restart">Restart</string>
+    <string name="game_quit">Quit</string>
+    <string name="game_pausedTitle">Paused</string>
+    <string name="game_highScore">High Score: %1$d</string>
+    <string name="game_score">Score: %1$d</string>
+
+    <string name="landingFragment_continue_as_guest">Continue as Guest</string>
+
+    <string name="leaderboard_title">Leaderboard</string>
+    <string name="leaderboard_rank">Rank</string>
+    <string name="leaderboard_user">User</string>
+    <string name="leaderboard_score">Score</string>
+
+    <string name="mainMenu_play">Play</string>
+    <string name="mainMenu_logOut">Log out</string>
+    <string name="game_pauseMenu_resume">Resume</string>
+    <string name="game_pauseMenu_sound">Music</string>
+    <string name="game_pauseMenu_quit">Quit</string>
+
+
+</resources>

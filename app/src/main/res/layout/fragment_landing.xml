@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7DD1EC"
+    android:orientation="vertical"
+    tools:context=".LandingFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:fontFamily="@font/vt323"
+        android:gravity="center"
+        android:text="@string/all_sky_surfer"
+        android:textColor="#000000"
+        android:textSize="60sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:layout_marginTop="30sp"
+        android:src="@drawable/skysurfer"
+        android:contentDescription="@string/all_sky_surfer"
+        app:srcCompat="@drawable/skysurfer"
+        tools:srcCompat="@drawable/skysurfer" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50sp" />
+
+    <Button
+        android:id="@+id/button_landing_login"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5sp"
+        android:backgroundTint="#258C14"
+        android:fontFamily="@font/vt323"
+        android:paddingBottom="10sp"
+        android:text="@string/all_loginButton"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:cornerRadius="30sp" />
+
+    <Button
+        android:id="@+id/button_landing_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5sp"
+        android:backgroundTint="#258B14"
+        android:fontFamily="@font/vt323"
+        android:paddingBottom="10sp"
+        android:text="@string/all_registerButton"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:cornerRadius="30sp" />
+
+    <Button
+        android:id="@+id/button_landing_guest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5sp"
+        android:backgroundTint="#258A14"
+        android:fontFamily="@font/vt323"
+        android:paddingBottom="10sp"
+        android:text="@string/landingFragment_continue_as_guest"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:cornerRadius="30sp" />
+
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7DD1EC"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".authentication.RegisterFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30sp"
+        android:fontFamily="@font/vt323"
+        android:gravity="center"
+        android:text="@string/register_header"
+        android:textColor="#000000"
+        android:textSize="60sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="15sp"
+        android:background="#CC489ED5"
+        android:orientation="vertical">
+
+        <Space
+            android:id="@+id/space_register_feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="15sp"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textView_register_feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/vt323"
+            android:text="@string/register_feedback"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/editText_register_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="30sp"
+            android:layout_marginRight="30sp"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:fontFamily="@font/vt323"
+            android:hint="@string/register_usernameHint"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editText_register_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="30sp"
+            android:layout_marginRight="30sp"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:fontFamily="@font/vt323"
+            android:hint="@string/register_passwordHint"
+            android:inputType="textVisiblePassword"
+            android:minHeight="48dp"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editText_register_confirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="30sp"
+            android:layout_marginRight="30sp"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:fontFamily="@font/vt323"
+            android:hint="@string/register_confirmPasswordHint"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/button_register_createAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:backgroundTint="#258C14"
+            android:fontFamily="@font/vt323"
+            android:paddingBottom="10sp"
+            android:text="@string/register_createAccountHint"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            app:cornerRadius="30sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_register_back"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5sp"
+        android:backgroundTint="#258C14"
+        android:fontFamily="@font/vt323"
+        android:paddingBottom="10sp"
+        android:text="@string/all_backButton"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:cornerRadius="30sp" />
+
+</LinearLayout>
